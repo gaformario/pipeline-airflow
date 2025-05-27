@@ -42,11 +42,14 @@ A DAG é composta por três tarefas principais, executadas em sequência:
 
 ```docker exec -it airflow_web airflow users create --username airflow --firstname Admin --lastname User --role Admin --email admin@example.com --password airflow```
 
+2. Aplicação disponível em:
 
-2. Executando pipeline via Trigger DAG
+`http://localhost:8088/`
+
+3. Executando pipeline via Trigger DAG
 
 ![TriggerDAG](images/)
 
-3. Relatório gerado
+4. Relatório gerado
 
 ![Report](images/)

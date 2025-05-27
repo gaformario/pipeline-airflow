@@ -46,10 +46,12 @@ A DAG é composta por três tarefas principais, executadas em sequência:
 
 `http://localhost:8088/`
 
+![DAGs](images/dags.png)
+
 3. Executando pipeline via Trigger DAG
 
-![TriggerDAG](images/)
+![TriggerDAG](images/trigger.png)
 
 4. Relatório gerado
 
-![Report](images/)
+![Report](images/report.png)
